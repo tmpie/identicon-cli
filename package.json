@@ -1,0 +1,26 @@
+{
+  "name": "identicon-cli",
+  "version": "0.1.0",
+  "description": "",
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "identicon-cli": "identicon-cli.mjs"
+  },
+  "files": [
+    "./*.mjs"
+  ],
+  "scripts": {
+    "start": "node main.mjs"
+  },
+  "keywords": [
+    "identicon"
+  ],
+  "author": "tmpie",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "identicon.js": "^2.3.3"
+  }
+}
