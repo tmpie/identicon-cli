@@ -1,6 +1,6 @@
 # identicon-node
 
-A simple CLI Tool to run `identicon.js` on Node.js.
+A simple CLI Tool to run [`identicon.js`][identicon.js] on Node.js.
 
 ![icon.png](/icon.png)
 
@@ -12,8 +12,10 @@ A simple CLI Tool to run `identicon.js` on Node.js.
 npx identicon-cli [options] <identifer>
 ```
 
-### Installing a package globally
+### Installing npm packages globally
 
 ```sh
 npm install -g identicon-cli
 ```
+
+[identicon.js]: https://www.npmjs.com/package/identicon.js
