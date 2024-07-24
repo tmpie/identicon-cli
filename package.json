@@ -1,26 +1,32 @@
 {
   "name": "identicon-cli",
-  "version": "0.1.0",
-  "description": "",
-  "engines": {
-    "node": ">=18"
-  },
-  "bin": {
-    "identicon-cli": "identicon-cli.mjs"
-  },
+  "version": "0.1.1",
+  "description": "A simple CLI Tool to run identicon.js on Node.js.",
+  "keywords": [
+    "identicon",
+    "Node.js"
+  ],
+  "homepage": "https://github.com/tmpie/identicon-cli#readme",
   "files": [
     "./*.mjs"
   ],
+  "bin": {
+    "identicon-cli": "identicon-cli.mjs"
+  },
+  "license": "MIT",
+  "author": "tmpie",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmpie/identicon-cli.git"
+  },
   "scripts": {
     "start": "node main.mjs"
   },
-  "keywords": [
-    "identicon"
-  ],
-  "author": "tmpie",
-  "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0",
     "identicon.js": "^2.3.3"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
