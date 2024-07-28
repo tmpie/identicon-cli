@@ -11,6 +11,9 @@ importers:
       commander:
         specifier: ^12.1.0
         version: 12.1.0
+      hex-rgb:
+        specifier: ^5.0.0
+        version: 5.0.0
       identicon.js:
         specifier: ^2.3.3
         version: 2.3.3
@@ -21,11 +24,17 @@ packages:
     resolution: {integrity: sha512-Vw8qHK3bZM9y/P10u3Vib8o/DdkvA2OtPtZvD871QKjy74Wj1WSKFILMPRPSdUSx5RFK1arlJzEtA4PkFgnbuA==}
     engines: {node: '>=18'}
 
+  hex-rgb@5.0.0:
+    resolution: {integrity: sha512-NQO+lgVUCtHxZ792FodgW0zflK+ozS9X9dwGp9XvvmPlH7pyxd588cn24TD3rmPm/N0AIRXF10Otah8yKqGw4w==}
+    engines: {node: '>=12'}
+
   identicon.js@2.3.3:
     resolution: {integrity: sha512-/qgOkXKZ7YbeCYbawJ9uQQ3XJ3uBg9VDpvHjabCAPp6aRMhjLaFAxG90+1TxzrhKaj6AYpVGrx6UXQfQA41UEA==}
 
 snapshots:
 
   commander@12.1.0: {}
+
+  hex-rgb@5.0.0: {}
 
   identicon.js@2.3.3: {}

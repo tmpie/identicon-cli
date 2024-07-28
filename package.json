@@ -1,6 +1,6 @@
 {
   "name": "identicon-cli",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A simple CLI Tool to run identicon.js on Node.js.",
   "keywords": [
     "identicon",
@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "commander": "^12.1.0",
+    "hex-rgb": "^5.0.0",
     "identicon.js": "^2.3.3"
   },
   "engines": {

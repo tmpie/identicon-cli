@@ -1,4 +1,4 @@
-# identicon-node
+# identicon-cli
 
 A simple CLI Tool to run [`identicon.js`][identicon.js] on Node.js.
 
