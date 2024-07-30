@@ -12,7 +12,7 @@ program.option('-o --output <path>', 'output path');
 program.option('--foreground <hex>', 'foreground color', parseColor);
 program.option('--background <hex>', 'background color', parseColor);
 program.option('--svg', 'use SVG instead of PNG');
-program.version('0.2.0', '-v --version');
+program.version('0.2.1', '-v --version');
 program.showHelpAfterError();
 program.parse();
 
