@@ -39,6 +39,7 @@ function parseNumber(str) {
   if (Number.isNaN(num)) {
     program.error(`error: option '-s --size <number>' argument must be a number`);
   }
+  return num;
 }
 
 function parseColor(str) {
